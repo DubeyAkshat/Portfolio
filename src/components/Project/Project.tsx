@@ -15,6 +15,9 @@ export function Project() {
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
                 <a href="https://github.com/DubeyAkshat/friendly" target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+                <a href="http://ec2-13-232-26-147.ap-south-1.compute.amazonaws.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
@@ -22,14 +25,17 @@ export function Project() {
             <div className="body">
               <h3>Friendly - A Social Media App</h3>
               <p>
-              A web-based social media application utilizing Django, PostgreSQL and Docker technologies. Implements core Django concepts, ensuring optimal code organization, maintainability, and delivering a feature-rich experience.
+              A web-based social media application utilizing Django, PostgreSQL, Celery, Celery Beat, Docker & Nginx. Deployed using AWS, it implements core Django concepts, ensuring optimal code organization, maintainability, and delivering a feature-rich experience.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Django</li>
                 <li>PostgreSQL</li>
+                <li>Celery</li>
+                <li>Celery Beat</li>
                 <li>Docker</li>
+                <li>Nginx</li>
               </ul>
             </footer>
           </div>
@@ -39,24 +45,50 @@ export function Project() {
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://github.com/DubeyAkshat/passvault" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+              {/* <div className="project-links">
+                <a href="https://github.com/DubeyAkshat/mern-chat" target="_blank" rel="noreferrer">
+                  GitHub
                 </a>
-              </div>
+              </div> */}
             </header>
             <div className="body">
-              <h3>PassVault - Digital Locker Web App</h3>
+              <h3>MERN-Chat</h3>
               <p>
-              A digital encrypted locker, utilizing Django, Django REST Framework, React and Docker to provide a robust solution for storing and managing encrypted data and credentials. Implemented user roles for each vault item.
+              A web-based chat application utilizing the MERN Stack. Features include user management, user authentication with JWT, messages & conversations between users. Plan to implement containerization with Docker & deploy with a cloud service.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>React.js</li>
+                <li>MongoDB</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              {/* <div className="project-links">
+                <a href="https://github.com/DubeyAkshat/mern-chat" target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+              </div> */}
+            </header>
+            <div className="body">
+              <h3>SnapSpeak</h3>
+              <p>
+              AAI powered caption generator & text reader application. Open-sourced the project on GitHub to foster collaboration, knowledge sharing, & community engagement. Individual contribution includes containerization with Docker & Nginx proxy server implemention.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Django</li>
-                <li>Django REST Framework</li>
-                <li>React</li>
                 <li>Docker</li>
+                <li>Nginx</li>
               </ul>
             </footer>
           </div>
@@ -68,7 +100,7 @@ export function Project() {
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
                 <a href="https://github.com/DubeyAkshat/LoanPrediction" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                  GitHub
                 </a>
               </div>
             </header>
