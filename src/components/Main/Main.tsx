@@ -5,19 +5,23 @@ import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 
-
 import djangoIcon from "../../assets/django-icon.svg";
+import nodeIcon from "../../assets/node-icon.svg";
+import expressIcon from "../../assets/express-icon.svg";
+import reactIcon from "../../assets/react-icon.svg";
 import postgresqlIcon from "../../assets/postgresql-icon.svg";
-import postmanIcon from "../../assets/postman-icon.svg";
+import mongodbIcon from "../../assets/mongodb-icon.svg";
+import mysqlIcon from "../../assets/mysql-icon.svg";
 import cppIcon from "../../assets/cpp-icon.svg";
 import pythonIcon from "../../assets/python-icon.svg";
+import jsIcon from "../../assets/js-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import vscodeIcon from "../../assets/vscode-icon.svg";
-import gitIcon from "../../assets/git-icon.svg";
 import dockerIcon from "../../assets/docker-icon.svg";
+import nginxIcon from "../../assets/nginx-icon.svg";
+import gitIcon from "../../assets/git-icon.svg";
+import vscodeIcon from "../../assets/vscode-icon.svg";
+import postmanIcon from "../../assets/postman-icon.svg";
 
 export function Main() {
   return (
@@ -154,64 +158,90 @@ export function Main() {
               "image": [
                 {
                   "src": djangoIcon,
-                  "width": 20,
-                  "height": 20
+                  "width": 40,
+                  "height": 40
                 },
                 {
-                  "src": cssIcon,
-                  "width": 20,
-                  "height": 20
+                  "src": nodeIcon,
+                  "width": 40,
+                  "height": 40
                 },
                 {
-                  "src": postgresqlIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": postmanIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": cppIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": htmlIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": cssIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": jsIcon,
-                  "width": 20,
-                  "height": 20
+                  "src": expressIcon,
+                  "width": 40,
+                  "height": 40
                 },
                 {
                   "src": reactIcon,
-                  "width": 20,
-                  "height": 20
+                  "width": 40,
+                  "height": 40
                 },
                 {
-                  "src": vscodeIcon,
-                  "width": 20,
-                  "height": 20
+                  "src": postgresqlIcon,
+                  "width": 40,
+                  "height": 40
                 },
                 {
-                  "src": gitIcon,
-                  "width": 20,
-                  "height": 20
+                  "src": mongodbIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": mysqlIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": cppIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": pythonIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": jsIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": htmlIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": cssIcon,
+                  "width": 40,
+                  "height": 40
                 },
                 {
                   "src": dockerIcon,
-                  "width": 20,
-                  "height": 20
+                  "width": 40,
+                  "height": 40
                 },
+                {
+                  "src": nginxIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": gitIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": vscodeIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "src": postmanIcon,
+                  "width": 40,
+                  "height": 40
+                },
+                
               ],
               "polygon": {
                 "sides": 5
